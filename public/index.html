@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Mobile tutorial - Leaflet</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script src="scripts/leaflet.js"></script>
+	<script src="scripts/Leaflet.ImageOverlay.Rotated.js"></script>
+	<script src="scripts/angular.min.js"></script>
+	<script src ="scripts/readData.js"></script>
+	<script src="scripts/calender.min.js" type="text/javascript"></script>
+	<script src="scripts/socket.io.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/calendar.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+	<link rel="stylesheet" href="css/timetablejs.css">
+    <link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<style>#map {width: 100%; float: left; leaflet-control-attribution:abcd; }
+</style>
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+<div class="container-fluid">
+<div class="row" align="center" style="color:white;background-color:#124191">
+<div class="col">
+<img src="images/logo_white.png" style="float:left;width:125px;" />
+</div>
+<div class="col">
+<h3 class="nokia-font"><strong>INDOOR MAPS</strong></h3>
+</div>
+</div>
+<div class="row">
+		<div id='map'>
+		</div>
+</div>
+</div>
+<script src="scripts/map.js"></script>
+<script src="scripts/leaflet.label.js"></script>
+<script type="text/javascript">
+var tcpTableElement = document.getElementById("map"); 
+tcpTableElement.style.height = window.innerHeight / 1.08 +"px";
+</script>
+<script src="scripts/socket.io.js"></script>
+</body>
+</html>

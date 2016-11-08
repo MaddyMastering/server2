@@ -1,0 +1,119 @@
+@font-face{font-family:'Icons';src:url('../fonts/NokiaIcons.woff') format('woff')}
+
+body {
+    font-family: "Nokia Pure",Helvetica,Arial,sans-serif;
+}
+
+.timetable
+{
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.custom-pane {
+    background: url(../img/Nokia.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.custom-height {
+    height: 450px;
+}
+
+.footer {
+  position: absolute;
+  color: #D8D9DA;
+  top: 500px;
+  right: 0;
+  bottom: 0px;
+  left: 45%;
+  padding: 1rem;
+  text-align: right;
+}
+
+.footer-two{
+  position: absolute;
+  color: #68717A ;
+  right: 0;
+  bottom: -50px;
+  left: 45%;
+  padding: 1rem;
+  text-align: right;
+}
+
+.center{
+     text-align:center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.nokia-font {
+   font-family: "Nokia Pure",Helvetica,Arial,sans-serif;  
+}
+
+
+.my-label {
+    position: absolute;
+    width:75px;
+    font-size:10px;
+	font-weight:800;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+}
+
+.nokia-color {
+    background-color: #124191;
+}
+
+.white {
+    color: white;
+}
+
+h1 {
+    font-size: 10px;
+}
+
+h3 {
+    font-size: 19px;
+	margin-top: 16px;
+	margin-right: 20px;
+	float: right;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-family: "Nokia Pure",Helvetica,Arial,sans-serif;  
+}
+
+.start-button {
+    background-color: #124191;
+    border-color: white; 
+}
+
+.button-dark {
+    color: #fff;
+    border-color: #6e6e6e;
+    text-shadow: 0 -1px 0 #1a1a1a;
+    box-shadow: 0 1px 3px 0 #6e6e6e;
+    background: #2c2c2c;
+}
+
+.nokia-grey {
+    color: #D8D9DA;
+}
+
+.nav-bar-tabs-top.hide ~ .view-container .tabs-top .tabs {
+    top: -50px;
+}
