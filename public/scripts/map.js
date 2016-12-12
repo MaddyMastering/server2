@@ -4,7 +4,7 @@ angular.module('myApp', [])
 
 	  var loc;
 	  var device;
-	  var socket = io('http://localhost:3001');
+	  var socket = io('http://server2-server-project.44fs.preview.openshiftapps.com/');
 	  var devices=[];
 	  var status;
  
